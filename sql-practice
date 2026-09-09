@@ -1,0 +1,42 @@
+Part A - Database & Table Creation
+
+    
+1->  CREATE DATABASE company_db;
+
+2-> USE company_db;
+
+3-> CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(100),
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
+    city VARCHAR(50),
+    joining_date DATE,
+    status VARCHAR(20)
+);
+
+4-> SHOW COLUMNS FROM employees;
+
+5-> SHOW TABLES;
+
+
+Part B - INSERT Operations
+6-> INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (101, 'Rahul Patil', 'Development', 45000, 'Pune', '2026-01-10', 'Active');
+
+7-> INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (102, 'Priya Sharma', 'Testing', 38000, 'Mumbai', '2026-02-15', 'Active');
+
+8->  INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (103, 'Amit Joshi', 'Development', 52000, 'Pune', '2025-12-05', 'Active');
+
+9-> INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (104, 'Sneha Kulkarni', 'HR', 35000, 'Nashik', '2026-03-20', 'Active');
+
+10-> INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (105, 'Rohan Deshmukh', 'Support', 30000, 'Mumbai', '2026-04-01', 'Inactive');
+
+11-> INSERT INTO employees (employee_id, employee_name, department, salary, city, joining_date, status)
+VALUES (106, 'Anjali More', 'Testing', 42000, 'Pune', '2026-05-12', 'Active');
+
+12-> 
